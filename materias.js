@@ -1,4 +1,4 @@
-const ramos = [
+export const ramos = [ ... ];
   // PRIMER SEMESTRE
   { id: 'biologia', nombre: 'Fundamentos de Biología y Genética Humana', semestre: 1, prereq: [] },
   { id: 'quimica', nombre: 'Bases Químicas y Bioquímicas de la Vida', semestre: 1, prereq: [] },
