@@ -1,4 +1,4 @@
-export const ramos = [ 
+const ramos = [
   // PRIMER SEMESTRE
   { id: 'biologia', nombre: 'Fundamentos de Biología y Genética Humana', semestre: 1, prereq: [] },
   { id: 'quimica', nombre: 'Bases Químicas y Bioquímicas de la Vida', semestre: 1, prereq: [] },
@@ -71,3 +71,5 @@ export const ramos = [
   { id: 'profesional2', nombre: 'Práctica Profesional en Enfermería II', semestre: 10, prereq: ['metodologia', 'comunidades1', 'adulto1', 'persona_mayor', 'calidad', 'practica3', 'proyecto1', 'comunidades2', 'adulto2', 'mujer', 'electivo1', 'practica4', 'proyecto2', 'comunidades3', 'nino1', 'urgencias', 'mental1', 'practica5', 'interculturalidad', 'nino2', 'mental2', 'electivo2', 'practica6'] },
   { id: 'electivo_prof', nombre: 'Electivo de Profundización', semestre: 10, prereq: ['metodologia', 'comunidades1', 'adulto1', 'persona_mayor', 'calidad', 'practica3', 'proyecto1', 'electivo1', 'practica4', 'proyecto2', 'comunidades3', 'nino1', 'urgencias', 'mental1', 'practica5', 'interculturalidad', 'nino2', 'mental2', 'electivo2', 'practica6'] }
 ];
+
+export { ramos };
