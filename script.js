@@ -15,3 +15,4 @@ function getRandomColor() {
   return '#' + Math.floor(Math.random()*16777215).toString(16);
 }
 import { ramos } from './materias.js';
+console.log("Ramos cargados:", ramos);
